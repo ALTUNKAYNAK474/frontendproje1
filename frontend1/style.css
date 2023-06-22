@@ -1,0 +1,74 @@
+@media screen and (max-width:700px;) {
+    .menu{
+        display: grid;
+    }
+    
+}
+::selection {
+    background-color: rgba(95, 100, 0, 0.456);
+    color: #fff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: beige;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    background-color: #49cab7;
+    padding: 75px;
+    color: white;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.menu a {
+    color: #0d927e;
+    margin: 0;
+    padding: 12px 20px;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    background-color: #0d927e;
+    color: rgb(0, 0, 0);
+    
+}
+
+.icerik {
+    display: flex;
+}
+
+.icerik .soltaraf {
+    flex: 30%;
+    background-color: #ddd;
+    padding: 20px;
+    
+
+}
+
+.icerik .soltaraf .foto333 {
+    width: min-content;
+}
+
+.icerik .sagtaraf {
+    padding: 20px;
+    float: right;
+
+}
+
+.footer {
+    text-align: center;
+    background: #d4d4d4;
+    padding: 40px;
+}
+
